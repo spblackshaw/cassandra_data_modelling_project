@@ -1,4 +1,4 @@
-from component.models.database import PostgreSQLEngine
+from component.daos.sqlalchemy.sqlalchemy_engine import PostgreSQLEngine
 from component.models.tables import Base
 
 

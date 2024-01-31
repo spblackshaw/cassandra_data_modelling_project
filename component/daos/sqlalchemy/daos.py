@@ -1,7 +1,7 @@
 from sqlalchemy import Table, select
 
-from component.daos.create_tables import CreateTables
-from component.models.database import PostgreSQLEngine
+from component.daos.sqlalchemy.create_tables import CreateTables
+from component.daos.sqlalchemy.sqlalchemy_engine import PostgreSQLEngine
 
 
 class DatabaseOperations:

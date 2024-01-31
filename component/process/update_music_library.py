@@ -1,5 +1,5 @@
 from component.constants.music_library_data import ALBUM_VALUES, MUSIC_LIBRARY_TABLE_NAME, SONGS_TABLE_NAME, SONGS_VALUES
-from component.daos.daos import DatabaseOperations
+from component.daos.sqlalchemy.daos import DatabaseOperations
 
 
 class UpdateMusicLibrary:
